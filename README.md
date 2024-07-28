@@ -1,40 +1,31 @@
 # pool_float_zigbee_thermometer
 <h1 align="center">
-  Float zigbee thermomete
+  Float zigbee thermometer
 </h1>
 
 Zigbee, temperature, pool
-<p align="center"><img src="images/view_1.jpg" width=512 alt="Pípa s dislayem"></p>
+<p align="center"><img src="images/float09.jpg" width=512 alt="Plovák s senzorem"></p>
 
 ## Hardware
-* ESP32
-* 2in9 epaper Waveshare display
-* HX711 ADC converter
-* 50KG loadcell
+* OWON - THS317
+  
+https://www.zigbee2mqtt.io/devices/THS317-ET.html
+https://www.pamitech.cz/kabelovy-zigbee-sensor-teploty/
 
-<p align="center"><img src="images/view_2.jpg" width=512 alt="Stohování sudů"></p>
+<p align="center"><img src="images/float07.jpg" width=512 alt="Senzor"></p>
 
-## Google Trends
-* zobrazení aktuálních trendu vyhledávání na Google.com
-* komponenta pro vypsání RSS jako sensor - https://github.com/custom-components/feedparser
+## 3D Print
+* tělo plováku a víčko
 
-<p align="center"><img src="images/google_trends.jpg" width=512 alt="Google Trends"></p>
+  *.stl ve složče
+* link onshape.com
+  https://cad.onshape.com/documents/932d7e88307fcaaf0e04a0a5/w/9a7b19f1157a45011c975ee0/e/a637149c2991e96c793bdba7?renderMode=0&uiState=66a6326d841560686c4dbca0
 
-## Lovelace setting
-* nastavení offsetu pro váhu sudu (15,30,50L)
-* výběr loga pivovaru k zobrazení na epaper
+<p align="center"><img src="images/float05.jpg" width=512 alt="Plovák"></p>
+<p align="center"><img src="images/float02.jpg" width=512 alt="Plovák"></p>
+<p align="center"><img src="images/float04.jpg" width=512 alt="Plovák"></p>
 
-<p align="center"><img src="images/ha_lovelace_setting.jpg" width=512 alt="Homeassistant Lovelace"></p>
+******************************
 
-## Score table
-* to není třeba vysvětlovat :)
-* == stiskem tlačítka se přičte do konkrétního input_number hodnota a podle ní se zobrazí "čárka" na displayi ==
+<p align="center"><img src="images/float08.jpg" width=512 alt="Plovák"></p>
 
-<p align="center"><img src="images/score_table.jpg" width=512 alt="Score table"></p>
-
-* input_text pro jména na Score Table
-<p align="center"><img src="images/score_table_ha.jpg" width=512 alt="Score table HA"></p>
-
-## Tenzometry a držáky
-
-<p align="center"><img src="images/keg_holder_tenzo.jpg" width=512 alt="Score table"></p>
